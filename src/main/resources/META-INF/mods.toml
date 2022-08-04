@@ -1,0 +1,25 @@
+modLoader = "javafml"
+loaderVersion = "[40,)"
+license = "MIT License"
+[[mods]] #mandatory
+modId = "fastscreenshots"
+version = "${file.jarVersion}"
+displayName = "Fast Screenshots"
+#displayURL="http://example.com/"
+authors = "Grimmauld"
+description = '''
+Taking Screenshots without a stutter
+'''
+
+[[dependencies.fastscreenshots]] #optional
+modId = "forge" #mandatory
+mandatory = true #mandatory
+versionRange = "[40.1,)" #mandatory
+ordering = "NONE"
+side = "CLIENT"
+[[dependencies.fastscreenshots]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.18.2,1.19)"
+ordering = "NONE"
+side = "CLIENT"

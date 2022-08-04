@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "mod.grimmauld.fastscreenshots.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "fastscreenshots.refmap.json",
+  "mixins": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "minVersion": "0.8"
+}
